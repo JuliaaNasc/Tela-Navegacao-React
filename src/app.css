@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(to right, rgb(231, 127, 200), rgb(139, 31, 107));
+
+}
+
+.Cabecalho p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Cabecalho button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: blue;
+}
