@@ -1,8 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
 }
 
 .Cabecalho {
@@ -13,13 +12,13 @@
     background-size: cover;
     background-position: center;
     background: linear-gradient(to right, rgb(231, 127, 200), rgb(139, 31, 107));
-
 }
 
-.Cabecalho p {
+.Cabecalho p, h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #fff;
 }
 
 .Cabecalho form{
