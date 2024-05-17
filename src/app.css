@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 .Cabecalho {
@@ -21,10 +22,27 @@
     align-items: center;
 }
 
+.Cabecalho form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .Cabecalho button {
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    color: blue;
+    width: 30%;
+    height: 30px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    font-size: 16px;
+    font-weight: 500;
+    text-shadow: none;    
+    margin-top: 3rem;
 }
